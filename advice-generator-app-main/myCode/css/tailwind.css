@@ -2585,12 +2585,16 @@ video {
     width: fit-content;
   }
 
-  .md\:max-w-\[75\%\] {
-    max-width: 75%;
+  .md\:w-\[75\%\] {
+    width: 75%;
   }
 
   .md\:max-w-\[70\%\] {
     max-width: 70%;
+  }
+
+  .md\:max-w-\[75\%\] {
+    max-width: 75%;
   }
 
   .md\:scale-150 {
@@ -2734,8 +2738,16 @@ video {
     width: 1000px;
   }
 
+  .lg\:w-\[50\%\] {
+    width: 50%;
+  }
+
   .lg\:max-w-\[60\%\] {
     max-width: 60%;
+  }
+
+  .lg\:max-w-\[50\%\] {
+    max-width: 50%;
   }
 
   .lg\:flex-row {
